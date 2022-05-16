@@ -55,6 +55,7 @@ Defining macros used in the main.
 ------------------------------------------------*/
 #define NUM_SAMPLES 1024u // Number of ADC samples we will average over (measurement 1)
 #define NUM_PULSE_SAMPLES 512u // Number of half pulses we will average over (measurement 3)
+#define FCLOCK 11059200u // clock frequency in Hz
 
 uint16 readADCSample(void);
 
